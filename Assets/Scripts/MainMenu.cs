@@ -11,6 +11,7 @@ public class MainMenu : MonoBehaviour
     }
     public void Quit()
     {
+        Debug.Log("Application exited");
         Application.Quit();
     }
 }
