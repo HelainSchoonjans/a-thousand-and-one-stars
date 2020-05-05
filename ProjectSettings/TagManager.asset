@@ -44,3 +44,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Planet
+    uniqueID: 2668991007
+    locked: 0
+  - name: Location
+    uniqueID: 3987207529
+    locked: 0
+  - name: Hero
+    uniqueID: 2993299743
+    locked: 0
