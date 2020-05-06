@@ -8,7 +8,6 @@ public class HoverEffect : MonoBehaviour
 
     private void OnMouseEnter()
     {
-        Debug.Log("Hover effect triggered");
         transform.localScale += Vector3.one * hoverAmount;
     }
 
