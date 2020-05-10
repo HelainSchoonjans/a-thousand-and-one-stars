@@ -12,6 +12,7 @@ public class Dialog : MonoBehaviour
 
     public GameObject continueButton;
     public Animator displayAnimator;
+    public GameObject dialogBackground;
 
     IEnumerator Type()
     {
@@ -42,6 +43,7 @@ public class Dialog : MonoBehaviour
     {
         display.text = "";
         continueButton.SetActive(false);
+        dialogBackground.SetActive(false);
     }
     
     void Start()
