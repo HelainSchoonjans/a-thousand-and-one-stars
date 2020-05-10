@@ -45,6 +45,12 @@ public class Dialog : MonoBehaviour
         continueButton.SetActive(false);
         dialogBackground.SetActive(false);
     }
+
+    public void PassTextAutoTyping()
+    {
+        StopAllCoroutines();
+        display.text = sentences[index];
+    }
     
     void Start()
     {
@@ -58,6 +64,17 @@ public class Dialog : MonoBehaviour
         if(display.text == sentences[index])
         {
             continueButton.SetActive(true);
+        }
+        if(Input.anyKeyDown)
+        {
+            // let's continue only on enter to avoid continuing by accident.
+            if(Input.GetKeyDown(KeyCode.Return) && display.text == sentences[index])
+            {
+                NextSentence();
+            } else
+            {
+                PassTextAutoTyping();
+            }
         }
     }
 }
