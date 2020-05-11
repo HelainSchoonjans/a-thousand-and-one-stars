@@ -1307,13 +1307,13 @@ MonoBehaviour:
   sentences:
   - In a far, far future the most prestigious institution is the imperial bureaucracy.
     Anyone entering the administration can expect to have a lifelong well paying job
-    without having to actually work.
+    along with the higher social status.
   - There is however a lot of competition for these positions and harsh entrance exams
     that can only be passed by people with real travel and adventuring experience
     across many planets. Of course, the candidate must also have the right contacts
     and support the enter the Administration and be popular on the social networks.
   - One day, a nobody from a provincial planet decided to roam the galaxy for life
-    experiences and social media fame to fulfill his dream to never have a real job.
+    experiences and social media fame to fulfill his dream to enter the Administration.
   typingSpeed: 0.02
   continueButton: {fileID: 1561657337}
   displayAnimator: {fileID: 2090523055}
